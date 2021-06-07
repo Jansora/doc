@@ -16,6 +16,7 @@ features:
     desc: Rich Markdown extensions are not limited to rendering component demos, making component documents not only easy to write and manage, but also beautiful and easy to use
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/b8570f4d-c1b1-45eb-a1da-abff53159967/kj9t990h_w144_h144.png
     title: Theme system
+    link: https://www.jansora.com/components/foo
     desc: Progressive custom theme capabilities, ranging from expanding your own Markdown tags to customizing complete theme packages, are up to you
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/b3e102cd-5dad-4046-a02a-be33241d1cc7/kj9t8oji_w144_h144.png
     title: API automatically generated
