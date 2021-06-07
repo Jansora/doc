@@ -22,6 +22,20 @@ CREATE TABLE `search` (
 实体
 
 ```java
+package com.jansora.app.dto;
+
+import java.io.Serializable;
+
+/**
+ * <Description> Description for SearchDo <br>
+ *
+ * @author jansora <br>
+ * @version 1.0 <br>
+ * @github https://github.com/Jansora
+ * @CreateDate 2021/5/1 12:46:39 <br>
+ * @see com.jansora.app.model <br>
+ * @since 1.0 <br>
+ */
 public class SearchDto implements Serializable {
     /**
      * 主键 id
