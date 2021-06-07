@@ -22,8 +22,10 @@ import java.util.List;
 List<SearchDto> findManyByName(String name);
 // xml
 <select id="findManyByName" resultType="com.jansora.app.dto.SearchDto">
-SELECT * FROM search WHERE 1 = 1
-<choose><when test="name != null"> AND name = #{name}</when></choose>
+    SELECT * FROM search WHERE 1 = 1
+    <choose>
+        <when test="name != null"> AND name = #{name}</when>
+    </choose>
 </select>
 ```
 ## 查询总条数
@@ -46,8 +48,10 @@ import java.util.List;
 List<SearchDto> findManyByName(String name);
 // xml
 <select id="findManyByName" resultType="com.jansora.app.dto.SearchDto">
-SELECT * FROM search WHERE 1 = 1
-<choose><when test="name != null and name != ''"> AND name LIKE CONCAT('%',#{name},'%') </when></choose>
+    SELECT * FROM search WHERE 1 = 1
+    <choose>
+        <when test="name != null and name != ''"> AND name LIKE CONCAT('%',#{name},'%') </when>
+    </choose>
 </select>
 ```
 # 2

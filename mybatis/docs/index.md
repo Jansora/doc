@@ -6,7 +6,7 @@ hero:
   desc: 📖 学习 Mybatis 的点点滴滴
   actions:
     - text: 快速开始
-      link: /guide
+      link: /guide/query
 ---
 # 简介
 ## 什么是 MyBatis？
