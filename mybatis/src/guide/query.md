@@ -38,7 +38,18 @@ Long count(Long id);
 SELECT count(*) FROM search;
 </select>
 ```
-
+## 模糊搜索
+<Alert type="success"><kbd>Interface </kbd> 的返回值中 List 的泛型类型与 <kbd>XML</kbd> 文件的 resultType 标签保持一致 </Alert>
+```xml
+// java
+import java.util.List;
+List<SearchDto> findManyByName(String name);
+// xml
+<select id="findManyByName" resultType="com.jansora.app.dto.SearchDto">
+SELECT * FROM search WHERE 1 = 1
+<choose><when test="name != null and name != ''"> AND name LIKE CONCAT('%',#{name},'%') </when></choose>
+</select>
+```
 # 2
 
 
