@@ -1,11 +1,11 @@
 ---
-title: dumi - A doc tool can assist you to develop libraries & write docs.
+title: Mybatis 学习手册 - Jansora
 order: 10
 hero:
-  title: dumi
-  desc: 📖 A doc tool can assist you to develop libraries & write docs.
+  title: Mybatis 学习手册
+  desc: 📖 学习 Mybatis 的点点滴滴
   actions:
-    - text: Getting Started
+    - text: 快速开始
       link: /components/foo
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png

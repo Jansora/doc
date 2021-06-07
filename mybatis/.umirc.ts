@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const title = 'Mybatis 应知应会';
+const title = 'Mybatis 学习手册';
 // const title = '张洋源 (Jansora)';
 export default defineConfig({
   title: `${title}`,
@@ -18,7 +18,7 @@ export default defineConfig({
     null,
     {
       title: 'GitHub',
-      path: 'https://github.com/Jansora/doc/mybatis',
+      path: 'https://github.com/Jansora/doc/tree/main/mybatis',
     },
   ],
   locales: [['zh-CN', '中文']]
