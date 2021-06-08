@@ -20,6 +20,7 @@ SELECT * FROM search WHERE id = #{id};
 // java
 import java.util.List;
 List<SearchDto> findManyByName(String name);
+  
 // xml
 <select id="findManyByName" resultType="com.jansora.app.dto.SearchDto">
     SELECT * FROM search WHERE 1 = 1
