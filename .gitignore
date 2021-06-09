@@ -20,3 +20,5 @@
 .umi-test
 .env.local
 .idea
+
+update.py
