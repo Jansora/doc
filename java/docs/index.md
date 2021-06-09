@@ -6,5 +6,5 @@ hero:
   desc: 📖 学习 Java 的点点滴滴
   actions:
     - text: 快速开始
-      link: /guide/query
+      link: /effective-java/p1
 ---
