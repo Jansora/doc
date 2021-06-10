@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/dumi-template",
+    "url": "https://github.com/Jansora/doc/java",
     "branch": "main"
   },
   "lint-staged": {
